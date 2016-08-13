@@ -1,9 +1,11 @@
-import numpy as np
-import scipy as sp
 import scipy.stats as st
 from collections import defaultdict
 from scipy.spatial.distance import euclidean
-import pdb
+import numpy as np
+import scipy as sp
+
+__all__ = ['LSH']
+
 
 class LSH:
 
